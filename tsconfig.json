@@ -1,0 +1,15 @@
+{
+  // https://v3.nuxtjs.org/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "lib": [
+      "esnext.full",
+      "dom"
+    ]
+  },
+  "types": [
+    "vue-sweetalert2"
+  ],
+}

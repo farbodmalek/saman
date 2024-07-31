@@ -1,0 +1,32 @@
+export interface AccomplishedSurveyDetail {
+    id: number;
+    referenceUserId: number;
+    referenceUserName: string;
+    referenceUserImagePath: string;
+    surveyUserId: number;
+    surveyUserName: string;
+    surveyUserImagePath: string;
+    loanId: number;
+    referenceDateFa: string;
+    referenceDateTime: string;
+    surveyDateFa: string;
+    surveyDateTime: string;
+    facilitiesPart: string;
+    isValidation: boolean;
+    planNoId: number;
+    planNoDesc: string;
+    otherPlanNo: string;
+    planTypeId: number;
+    planTypeDesc: string;
+    surveyPhase: string;
+    currentPlanSurvey: string;
+    phaseBetweenGuarantee: string;
+    customerOffer: string;
+    equipmentDescription: string;
+    latitude: string;
+    longitude: string;
+    planActivationTypeId: number;
+    planActivationType: string;
+    address: string;
+    changedLoanPlanMarkerModel: any[];
+}
